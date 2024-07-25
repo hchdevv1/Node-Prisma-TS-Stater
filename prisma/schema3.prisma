@@ -1,0 +1,10 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generate-client-db3"
+}
+
+datasource db3 {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL_3")
+}
+
